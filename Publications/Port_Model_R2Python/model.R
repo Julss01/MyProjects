@@ -1,6 +1,6 @@
 #User: Julia
 
-setwd("/Users/julil/Desktop/Pruebas/")
+setwd("/Users//")
 
 #Loading RandomForest and Iris Import
 library("randomForest")

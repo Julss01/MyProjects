@@ -14,10 +14,10 @@ import csv
 
 #setosa=1, versicolor=2, virginica=3
 
-model2=PMMLForestClassifier(pmml="C:/Users/julil/Desktop/Pruebas/model.pmml")
+model2=PMMLForestClassifier(pmml="C:/Users//")
 #model = Model.fromFile('C:/Users/julil/Desktop/Pruebas/model.pmml')
 
-iris=pd.read_csv("C:/Users/julil/Desktop/Pruebas/iris.csv", sep=",")
+iris=pd.read_csv("C:/Users//", sep=",")
 iris= iris.drop(iris.columns[0], axis=1)
 #iris.Species.replace(["setosa","versicolor","virginica"], [1,2,3], inplace=True)
 

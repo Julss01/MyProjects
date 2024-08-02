@@ -177,7 +177,7 @@ def coef(model_dict):
     return imp_F, use_F, t_F, imp_M, use_M, t_F
     
 # #MAIN
-dbs_dict= open_df("C:/Users/julil/Desktop/TFM/BDs_pasar_M5")
+dbs_dict= open_df("C:/Users//")
 numpy_dict, dict_cols, test_dict= transform_into_numpy(dbs_dict)
 params=opt(numpy_dict)
 # model_dict= model(numpy_dict)

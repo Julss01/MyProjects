@@ -78,7 +78,7 @@ for key in lista:
 
 repes_t= sorted(repes.items(), key=lambda x:x[1], reverse=True)
 
-data_T= pd.read_csv("C:/Users/julil/Desktop/Pruebas/data_obesity_T.csv", sep= ";", encoding='utf-8')
+data_T= pd.read_csv("C:/Users//", sep= ";", encoding='utf-8')
 data_T["Class"].replace(['Yes_IR', 'No_IR'], [1, 0], inplace=True)   
 def plots(feature1, feature2, valor):
     plt.figure(1)
@@ -179,7 +179,7 @@ plots("Sex", "cg00152126_CTBP2", 5.2)
 
 
 # Counter-Factuals
-data_T= pd.read_csv("C:/Users/julil/Desktop/Pruebas/data_obesity_T.csv", sep= ";", encoding='utf-8')  
+data_T= pd.read_csv("C:/Users//", sep= ";", encoding='utf-8')  
 data_T["Class"].replace(['Yes_IR', 'No_IR'],
                         [1, 0], inplace=True)   
 
@@ -222,5 +222,5 @@ for i in list_indiv:
     df_i.insert(0, "ID",[i], allow_duplicates=True)
     df_ind= pd.concat([df_i, df_ind])
 
-df_ind.to_csv("C:/Users/julil/Desktop/Pruebas/df_counterfactuals.csv", index= False)
+df_ind.to_csv("C:/Users//", index= False)
        

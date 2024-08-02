@@ -216,7 +216,7 @@ def forest_plot(model_dict, predictions, testY, coef_dict):
         
         
 #MAIN
-dbs_dict= open_df("C:/Users/julil/Desktop/TFM/BDs_pruebas")
+dbs_dict= open_df("C:/Users//")
 numpy_dict, dict_cols, test_dict= transform_into_numpy(dbs_dict)
 var_train,var_train_name,var_test=selecting_variables(numpy_dict,test_dict,dict_cols)
 params= opt(var_train)

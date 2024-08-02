@@ -20,7 +20,7 @@ def open_df(folder_path):
     return dbs_dict
 
 #Homogeneidad de varianzas
-dbs= open_df("C:/Users/julil/Desktop/TFM/Disp")
+dbs= open_df("C:/Users//")
 
 # levene_stat_ig, levene_p_ig = levene(dbs["iberomics_F_dxa_tronco_processed"]["homa_zscore_stavnsbo"]
 #                                      ,dbs["pubmep_F_dxa_tronco_processed"]["homa_zscore_stavnsbo"])

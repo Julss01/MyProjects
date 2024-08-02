@@ -113,10 +113,10 @@ def processing_genobox(genobox):
         
 def saving_CSV(dict_dbs):
     for db in dict_dbs:
-        dict_dbs[db].to_csv("C:/Users/julil/Desktop/Proyecto_Julio/BDs_finales" 
+        dict_dbs[db].to_csv("C:/Users//" 
                             + "/" + db + ".csv",sep= ",")
    
-databases= reading_files("C:/Users/julil/Desktop/Proyecto_Julio/BDs")
+databases= reading_files("C:/Users//")
 new_dbs= changing_colnames(databases) 
 dbs_NA= removing_NAval(new_dbs)
 

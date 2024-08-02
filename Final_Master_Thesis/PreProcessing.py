@@ -113,7 +113,7 @@ def exporting_db(database, folder_path):
 
 # MAIN
 
-databases= open_df("C:/Users/julil/Desktop/TFM/BDs")
+databases= open_df("C://")
 
 unify_db(databases)
         
@@ -143,5 +143,5 @@ for db_name in databases.keys():
                       databases[db_name]["mmagratg"],
                       sum_db=["tronmmagra", "brammagra", "piemmagra"])   
     
-exporting_db(databases, "C:/Users/julil/Desktop/TFM/BDs_processed")
+exporting_db(databases, "C:/Users//")
         

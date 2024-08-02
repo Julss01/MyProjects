@@ -173,7 +173,7 @@ def exporting_db(database, folder_path):
         
 #MAIN
 
-databases= open_df("C:/Users/julil/Desktop/TFM/BDs_processed")    
+databases= open_df("C:/Users//")    
 final_dict=merging(databases,["code","fmi_tan","lmi_tan"], 
                     ["code","fmi_dxa", "lmi_dxa"], 
                     ["code","tronmmagra", "tronmgrasa"],
@@ -181,6 +181,6 @@ final_dict=merging(databases,["code","fmi_tan","lmi_tan"],
                     ["code","piemmagra", "piemgrasa"])
 
 filtering_variables(final_dict)
-# exporting_db(final_dict, "C:/Users/julil/Desktop/TFM/BD_pasar")
+# exporting_db(final_dict, "C:/Users//")
 
 
